@@ -1,6 +1,7 @@
-import Image from "next/image"
+import Image from 'next/image'
 
 const UserForm = () => {
+
   return (
     <div className='grid grid-cols-12 h-screen'>
 
@@ -29,60 +30,60 @@ const UserForm = () => {
           <div className='grid grid-cols-2 gap-x-10 gap-y-5'>
             <div className='space-y-2'>
               <div className='flex flex-col'>
-                <label className='form-label' htmlFor="">Item Identifier</label>
-                <input className='form-input' type="text" />
+                <label className='form-label' htmlFor=''>Item Identifier</label>
+                <input className='form-input' type='text' />
               </div>
 
               <div className='flex flex-col'>
-                <label className='form-label' htmlFor="">Item Weight</label>
-                <input className='form-input' type="text" />
+                <label className='form-label' htmlFor=''>Item Weight</label>
+                <input className='form-input' type='text' />
               </div>
 
               <div className='flex flex-col'>
-                <label className='form-label' htmlFor="">Item Fat Content</label>
-                <input className='form-input' type="text" />
+                <label className='form-label' htmlFor=''>Item Fat Content</label>
+                <input className='form-input' type='text' />
               </div>
 
               <div className='flex flex-col'>
-                <label className='form-label' htmlFor="">Item Visibility</label>
-                <input className='form-input' type="text" />
+                <label className='form-label' htmlFor=''>Item Visibility</label>
+                <input className='form-input' type='text' />
               </div>
 
               <div className='flex flex-col'>
-                <label className='form-label' htmlFor="">Item Type</label>
-                <input className='form-input' type="text" />
+                <label className='form-label' htmlFor=''>Item Type</label>
+                <input className='form-input' type='text' />
               </div>
 
               <div className='flex flex-col'>
-                <label className='form-label' htmlFor="">Item MRP</label>
-                <input className='form-input' type="text" />
+                <label className='form-label' htmlFor=''>Item MRP</label>
+                <input className='form-input' type='text' />
               </div>
             </div>
 
             <div className='space-y-2'>
               <div className='flex flex-col'>
-                <label className='form-label' htmlFor="">Outlet Identifier</label>
-                <input className='form-input' type="text" />
+                <label className='form-label' htmlFor=''>Outlet Identifier</label>
+                <input className='form-input' type='text' />
               </div>
 
               <div className='flex flex-col'>
-                <label className='form-label' htmlFor="">Outlet Establishment Year</label>
-                <input className='form-input' type="text" />
+                <label className='form-label' htmlFor=''>Outlet Establishment Year</label>
+                <input className='form-input' type='text' />
               </div>
 
               <div className='flex flex-col'>
-                <label className='form-label' htmlFor="">Outlet Size</label>
-                <input className='form-input' type="text" />
+                <label className='form-label' htmlFor=''>Outlet Size</label>
+                <input className='form-input' type='text' />
               </div>
 
               <div className='flex flex-col'>
-                <label className='form-label' htmlFor="">Outlet Location Type</label>
-                <input className='form-input' type="text" />
+                <label className='form-label' htmlFor=''>Outlet Location Type</label>
+                <input className='form-input' type='text' />
               </div>
 
               <div className='flex flex-col'>
-                <label className='form-label' htmlFor="">Outlet Type</label>
-                <input className='form-input' type="text" />
+                <label className='form-label' htmlFor=''>Outlet Type</label>
+                <input className='form-input' type='text' />
               </div>
 
             </div>
